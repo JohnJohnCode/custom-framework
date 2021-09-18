@@ -2,7 +2,7 @@
 
 This is a project for TOP in which you are supposed to create your own simple grid-based framework and clone a site with it.
 
-**This framework is nonresponsive and _heavily_ inspired by [960 grid system](http://960.gs/)**
+**This framework is nonresponsive and _heavily_ inspired by [960 grid system](http://960.gs/).**
 
 ## Utilities
 This framework has 2 utilities - **CSS reset** and **default font properties** for body.
@@ -18,19 +18,20 @@ body {
 
 ## Classes
 ### Foundations
-  **container**: container is 96Opx wide
+  **container**: a container is 960px wide
   
   **row**: a row is as wide as the container (960...)
 
 ### Blocks
 Every block has 10px margin left and right, in other words the gutters are 20px.
-There are 12 blocks total, each is 60px + 20px wider than the last
+There are 12 blocks total, each is 60px + 20px wider than the last.
 
-  **block-1**: smallest block, 60px wide with 10px left and right margin = 80px total width
+
+   **block-1**: smallest block, 60px wide with 10px left and right margin = 80px total width
   
-  **block-2**: 140px wide
+   **block-2**: 140px wide
   
-  **block-3**: 220px wide
+   **block-3**: 220px wide
   
 ...and so on.
  
@@ -39,6 +40,7 @@ You use fillings to position blocks as you see fit.
 Always fill the row with 12 blocks / fillings.
 Left fillings belong to the left and right fillings to the right (duh).
 There are 12 left and right fillings in total and these fillings are as big as blocks.
+
   
   **left-1**: 80px wide like block-1
   
@@ -87,6 +89,6 @@ There are 12 left and right fillings in total and these fillings are as big as b
     <div class="block-4 right-2">
       <p>I am 320px wide with 160px padding right!</p>
     </div>
+   </div>
   </div>
- </div>
 ```
