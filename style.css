@@ -1,0 +1,299 @@
+/*
+ *      EXTENSIONS
+ */
+.footer-midcont, .improve-cont, .tribtn-cont, .round, .artheader-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discord-cont button, .tribtn-cont button {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  padding: 1rem 3rem;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+  cursor: pointer;
+}
+
+.discord-cont button:hover, .tribtn-cont button:hover {
+  opacity: 0.8;
+}
+
+/*
+ *      VARIABLES
+ */
+/*
+ *      ODIN FONT
+ */
+@font-face {
+  font-family: Norse;
+  src: url("./assets/norsebold.otf");
+}
+/* MAKE LINKS NOT BLUE AND UNDERLINED + ODINLINKS */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.odinlink {
+  color: #cc9543;
+  text-decoration: underline;
+}
+
+.odinlink:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/*
+ *      NAVBAR
+ */
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10.5rem;
+  margin-top: 0.8rem;
+}
+
+.toplogo-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+}
+
+.toplogo-name {
+  font-family: "Norse";
+  font-size: 35px;
+  color: #cc9543;
+  text-transform: uppercase;
+  margin-left: 16px;
+}
+
+.nav-list {
+  font-size: 0;
+}
+
+.nav-listItem {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.nav-listItem a {
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0 9px;
+}
+.nav-listItem a:hover {
+  color: #000;
+}
+
+#bold {
+  font-weight: 800;
+}
+
+/*
+ *      ARTICLE HEADER
+ */
+.artheader-cont {
+  flex-flow: column nowrap;
+}
+.artheader-cont h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #4a4a4a;
+  margin-bottom: 30px;
+}
+.artheader-cont h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #cc9543;
+  font-size: 19px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+.round {
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.1);
+  width: 110px;
+  height: 110px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+/*
+ *      ARTICLE CONTENT
+ */
+.articlecontent-cont h3,
+.articlecontent-cont p {
+  margin-bottom: 25px;
+  color: #4a4a4a;
+}
+.articlecontent-cont h3 {
+  font-size: 24px;
+  margin-top: 15px;
+}
+.articlecontent-cont h3:hover {
+  color: #000;
+}
+.articlecontent-cont p {
+  font-size: 19px;
+  line-height: 1.7;
+}
+
+.assignmentsteps-cont {
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  padding: 2.8rem 1.5rem;
+  margin-bottom: 30px;
+}
+.assignmentsteps-cont h4 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  margin-top: 2.8rem;
+  color: #4a4a4a;
+}
+
+.assignmentsteps-ol {
+  list-style-type: number;
+  color: #4a4a4a;
+  font-size: 19px;
+  margin: 0 1.3rem;
+}
+.assignmentsteps-ol li {
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+.assignmentsteps-ol li:last-child {
+  margin-bottom: 0;
+}
+
+.additional-ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: rgba(74, 74, 74, 0.7);
+}
+
+.finalsection {
+  margin-bottom: 110px;
+}
+
+/*
+ *      SECTION BELLOW MAIN ARTICLE
+ */
+.bellowarticle-cont {
+  width: 100%;
+  background-color: #eee;
+}
+
+.tribtn-cont {
+  background-color: white;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 2rem 4rem;
+  margin: 80px 0;
+}
+.tribtn-cont button {
+  padding: 1rem 0;
+  margin: 0 20px;
+  flex-grow: 1;
+}
+.tribtn-cont button:nth-child(1),
+.tribtn-cont button:nth-child(3) {
+  background-color: #cc9543;
+}
+.tribtn-cont button:nth-child(2) {
+  background-color: #6abfc3;
+}
+
+.improve-cont {
+  color: #cc9543;
+  margin-bottom: 110px;
+}
+
+.discord-cont {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  color: rgba(74, 74, 74, 0.7);
+  margin-bottom: 100px;
+}
+.discord-cont h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+}
+.discord-cont h1,
+.discord-cont p {
+  margin-bottom: 30px;
+}
+.discord-cont button {
+  background-color: #cc9543;
+}
+
+/*
+ *      FOOTER
+ */
+.footer-cont {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem 17rem;
+}
+.footer-cont div,
+.footer-cont a {
+  flex: 1;
+}
+
+.footer-leftcont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.botlogo-name {
+  font-family: "Norse";
+  font-size: 26px;
+  color: #cc9543;
+  text-transform: uppercase;
+  margin-left: 16px;
+}
+
+.footer-midcont a {
+  margin: 5px 35px;
+  text-align: center;
+}
+
+.footer-rightcont {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer-rightcont ul:first-child {
+  margin-right: 80px;
+}
+
+.footer-li {
+  margin-bottom: 12px;
+}
+.footer-li a {
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer-li a:hover {
+  color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */
